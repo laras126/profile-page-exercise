@@ -11,20 +11,6 @@ body {
 	font-family: 'Georgia', serif;
 }
 
-.wrapper {
-	background-color: white;
-	padding: 30px;text-align: center;
-
-	/* Magic wrapper styles! */
-	max-width: 700px;
-	margin: 40px auto;
-}
-
-/* Margin shorthand: */
-/* margin: top right bottom left; */
-/* margin: top/bottom right/left; */
-/* margin: top bottom/right left; */
-
 img {
 	/* Magic image style goes here! */
 	max-width: 100%;
@@ -34,21 +20,22 @@ img {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	/*font-family: 'Courier';*/
+
 }
 
 p {
 
 }
 
+
 /* Header */
 
-.page-title {
+.app-title {
 	text-shadow: 1px 1px 0px #999;
 	font-size: 42px;
 }
 
-.page-desc {
+.app-desc {
 	font-family: Courier;
 	font-size: 24px;
 }
